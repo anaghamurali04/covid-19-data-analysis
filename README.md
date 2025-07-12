@@ -65,12 +65,12 @@ To run the notebook locally:
 ### Daily New Cases with Rolling Average
 ![New Cases](images/rolling_avg_india.png)
 
-###India vs USA - Total Cases Comparison
+### India vs USA - Total Cases Comparison
 ![Country Comparison](images/india_vs_usa_total_cases.png)
 
 ----
 
-##Folder Structure
+## Folder Structure
 
 covid-analysis/
 |
