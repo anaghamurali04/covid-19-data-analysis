@@ -24,12 +24,12 @@ This project provides a comprehensive analysis of COVID-19 trends using data fro
 
 - **Source** -: [OWID COVID-19 Data](https://covid.ourworldindata.org/data/owid-covid-data.csv)
 - **Columns Used** -:
-    - 'location','date','total_Cases','new_cases'
-    - 'total_deaths','new_deaths','people_vaccinated'
+    - `location`,`date`,`total_Cases`,`new_cases`
+    - `total_deaths`,`new_deaths`,`people_vaccinated`
 
 ----
 ## Dataset not included
-Due to GitHub's file size limit, the full 'owid-covid-data.csv' file is **not included** in this repository.
+Due to GitHub's file size limit, the full `owid-covid-data.csv` file is **not included** in this repository.
 
 To run the notebook locally:
 1. Download the dataset from:
@@ -68,10 +68,16 @@ To run the notebook locally:
 ### India vs USA - Total Cases Comparison
 ![Country Comparison](images/india_vs_usa_total_cases.png)
 
+### Correlation Matrix(India)
+![Correlation Matrix](images/Correlation_matrix_India.png)
+
+### Top 10 Countries People Vaccinated
+![Top 10 Countries](images/top_10_countries_vaccinated.png)
+
 ----
 
 ## Folder Structure
-
+```
 covid-analysis/
 |
 |--covid-19_data_analysis.ipynb #Main Jupyter Notebook
@@ -79,9 +85,12 @@ covid-analysis/
 | |--total_cases_india.png
 | |--rolling_avg_india.png
 | |--india_vs_usa_total_cases.png
+| |--Correlation_matrix_India.png
+| |--yop_10_countries_vaccinated
 |--README.md #This file
 |--owid-covid-data.csv #Raw dataset
 
+```
 ----
 ## What I Learned
 
@@ -94,7 +103,7 @@ covid-analysis/
 ## How to Run
 
 1. Clone this repository
-2. Open 'COVID-19_data_analysis.ipynb' in Jupyter
+2. Open `COVID-19_data_analysis.ipynb` in Jupyter
 3. Install requirements(if needed)
 4. Run cells and modify the code for deeper insights
 
